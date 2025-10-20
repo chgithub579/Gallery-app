@@ -1,0 +1,30 @@
+.gallery-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.list-item-container {
+  display: inline-block;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.list-item-container:hover {
+  transform: scale(1.05);
+}
+
+.active-thumbnail {
+  border: 3px solid #040f1b; 
+  background-color: #e0f0ff; 
+  padding: 4px;
+  border-radius: 12px;
+}

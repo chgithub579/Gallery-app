@@ -1,0 +1,17 @@
+.bg-container{
+    padding: 80px;
+    min-height: 150vh;
+}
+.image-container{
+    
+    padding-top: 50px;
+}
+.image{
+    width: 1200px;
+    height: 500px;
+}
+.images-container{
+    list-style-type: none;
+    display: flex;
+    
+}
